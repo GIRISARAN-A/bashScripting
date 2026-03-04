@@ -4,6 +4,7 @@
   <img src="images/shell_transparent.png" width="150">
 </p>
 <br></br>
+
  #### What is if Condition?
 `if ` is used to make decisions in Bash.
 Example:
