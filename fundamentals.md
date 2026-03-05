@@ -19,8 +19,9 @@ mkdir
 ```
 Bash reads and executes them.
 A Bash Script is a file containing multiple commands that run automatically.
+
 ---
-📝 Creating Your First Bash Script
+## 📝 Creating Your First Bash Script
 #### Step 1: Create a file
 ```Bash
 nano hello.sh
