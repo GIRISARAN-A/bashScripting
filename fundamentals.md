@@ -25,7 +25,6 @@ mkdir
 Bash reads and executes them.
 A Bash Script is a file containing multiple commands that run automatically.
 
----
 ##  Creating Your First Bash Script
 
 #### Step 1: Create a file
@@ -127,7 +126,6 @@ else
 fi
 ```
 </p>
----
 
 
 | Operator | Meaning           |
@@ -192,7 +190,6 @@ echo "Age: $2"
 ```
 </p>
 
-----
 
 ##### Special Variables:
 | Variable | Meaning       |
@@ -216,7 +213,6 @@ fi
 ```
 </p>
 
----
 Useful File Tests
 | Option | Meaning       |
 |--------|---------------|
