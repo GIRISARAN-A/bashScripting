@@ -4,7 +4,7 @@
 </p>
 <br></br>
 
-## 📌 What is Bash?
+##  What is Bash?
 Bash (Bourne Again SHell) is the default command-line interpreter in most Linux systems like Ubuntu.
 ##### It allows users to:
 • Run commands
@@ -26,7 +26,7 @@ Bash reads and executes them.
 A Bash Script is a file containing multiple commands that run automatically.
 
 ---
-## 📝 Creating Your First Bash Script
+##  Creating Your First Bash Script
 
 #### Step 1: Create a file
 <p align="center">
@@ -71,7 +71,7 @@ chmod +x hello.sh
 
 > The echo command prints text or variable values to the terminal output.
 
-##### 🔍 Understanding the Shebang
+#####  Understanding the Shebang
 <p align="center">
   
 ```Bash
@@ -82,7 +82,7 @@ This line tells Linux:
 “Use the Bash interpreter to run this script.”
 Without it, the system may not know which interpreter to use.
 
-### 📦 Variables in Bash
+###  Variables in Bash
 
 <p align="center">
   
@@ -97,7 +97,7 @@ Important Rules:
 No spaces around =
 Use $ to access variable values
 
-### 📥 Taking User Input
+###  Taking User Input
 <p align="center">
   
 ```Bash
@@ -110,7 +110,7 @@ echo "Welcome $name"
 </p>
 read allows the user to enter data from the keyboard.
 
-### 🔀 Conditional Statements (If-Else)
+###  Conditional Statements (If-Else)
 <p align="center">
   
 ```Bash
@@ -139,7 +139,7 @@ fi
 | -ge      | greater or equal|
 | -le      | less or equal   |
 
-### 🔁 Loops in Bash
+###  Loops in Bash
 For Loop
 <p align="center">
   
@@ -201,7 +201,7 @@ echo "Age: $2"
 | $1       | First argument|
 | $2       | Second argument|
 ----
-## 📁 File Condition Checks
+##  File Condition Checks
 <p align="center">
   
 ```Bash
@@ -227,14 +227,14 @@ Useful File Tests
 | -x     | Executable    |
 ---
 
-### 🧠 How Bash Executes a Script
+###  How Bash Executes a Script
 • You run ./script.sh
 • The Linux kernel loads /bin/bash
 • Bash reads the script line by line
 • Each command is executed
 • Output is displayed in terminal
 
-#### 📚 Conclusion
+#### Conclusion
 ##### Bash scripting is powerful for:
 • System administration
 • Automation
