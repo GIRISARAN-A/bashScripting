@@ -19,6 +19,7 @@ Non-zero → FALSE
 This is opposite to some programming languages where 1 means true.
 
 ### 1️⃣ Basic if Statement
+
 🔹 Syntax
 ```Bash
 if [ condition ]
@@ -43,7 +44,7 @@ When you write:
 ```bash
 if [ $num -eq 10 ]
 ```
-    $ `[  ]` is actually a command called test
+    $ [  ] is actually a command called test
 
     $ It checks the condition
 
@@ -64,6 +65,7 @@ Then if checks the exit status.
 ### 2️⃣ if-else Statement
 
 Used when we want two possibilities.
+
 🔹 Syntax
 ```Bash
 if [ condition ]
@@ -110,6 +112,7 @@ If condition false → else block runs
 ### 3️⃣ if-elif-else (Multiple Conditions)
 
 Used when checking multiple cases.
+
 🔹 Syntax
 ```Bash
 if [ condition ]
@@ -163,6 +166,7 @@ Remaining conditions are skipped
 | `-ge` | Greater than or equal |
 | `-le` | Less than or equal |
 ### 5️⃣ String Comparison
+
 🔹 Example
 ```Bash
 #!/bin/bash
@@ -177,6 +181,7 @@ fi
 ⬛ Important
 Always use quotes " " with strings.
 ### 6️⃣ File Checking Conditions
+
 🔹 Check File Exists
 ```Bash
 #!/bin/bash
