@@ -35,6 +35,7 @@ nano hello.sh
 ```
 </p>
 Opening file with nano text editor
+
 #### Step 2: Add the following code
 <p align="center">
   
@@ -43,7 +44,7 @@ Opening file with nano text editor
 echo "Hello World"
 ```
 </p>
-The first line ```#!/bin/bash``` is called a shebang. It tells Linux to use the Bash interpreter to run the script.
+The first line `#!/bin/bash` is called a shebang. It tells Linux to use the Bash interpreter to run the script.
 The echo command prints text to the terminal.
 
 #### Step 3: Save and exit
@@ -231,6 +232,7 @@ Useful File Tests
 • Output is displayed in terminal
 
 #### Conclusion
+
 ##### Bash scripting is powerful for:
 • System administration
 • Automation
