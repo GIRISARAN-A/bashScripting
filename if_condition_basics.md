@@ -44,21 +44,21 @@ When you write:
 ```bash
 if [ $num -eq 10 ]
 ```
-    $ [  ] is actually a command called test
+   $ [  ] is actually a command called test
 
-    $ It checks the condition
+   $ It checks the condition
 
-    $ If condition is true → exit status = 0
+   $ If condition is true → exit status = 0
 
-    $ If false → exit status ≠ 0
+   $ If false → exit status ≠ 0
 
 Then if checks the exit status.
 
 #### Important Rules
 
-    $  Space is mandatory after [ and before ]
+  $  Space is mandatory after [ and before ]
 
-    $  Always close with fi
+  $  Always close with fi
 
 > Use indentation for readability
 
@@ -90,21 +90,21 @@ fi
 ```
 #### Why use if-else?
 
-    $  `if-else` is used when a condition has two possible outcomes.
+  $  `if-else` is used when a condition has two possible outcomes.
 
 #### It ensures:
 
-    $  One block runs if true
+   $  One block runs if true
 
-    $  Another block runs if false
+   $  Another block runs if false
 
-    $  This improves:
+   $  This improves:
 
-    $  Script clarity
+   $  Script clarity
 
-    $  Logical flow
+   $  Logical flow
  
-    $  Error handling
+   $  Error handling
 
 `-gt` → greater than
 If condition false → else block runs
@@ -148,9 +148,9 @@ When there are more than two possibilities, `elif` helps avoid multiple separate
 
 #### How it works
 
-    $  Bash checks conditions top to bottom:
+  $  Bash checks conditions top to bottom:
 
-    $  First true condition runs
+  $  First true condition runs
 
 Remaining conditions are skipped
 
