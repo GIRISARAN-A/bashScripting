@@ -48,12 +48,14 @@ echo ${fruits[1]}
 echo ${fruits[2]}
 ```
 ## 3. Print All Array Elements
+```
 Bash
 #!/bin/bash
 
 fruits=("Apple" "Banana" "Mango" "Orange")
 
 echo ${fruits[@]}
+```
 
 #### Explanation
 
