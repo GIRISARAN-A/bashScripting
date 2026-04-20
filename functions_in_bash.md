@@ -2,7 +2,7 @@
 # Bash Functions 
 
 
-# 1. What is a Function in Bash?
+## 1. What is a Function in Bash?
 
 A function is a **named block of commands** that can be reused multiple times in a script.
 
