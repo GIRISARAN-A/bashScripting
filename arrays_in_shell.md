@@ -1,4 +1,3 @@
-
 ## 1. What is an Array in Bash?
 
 An array is a variable that can store multiple values in a single variable instead of storing only one value.
